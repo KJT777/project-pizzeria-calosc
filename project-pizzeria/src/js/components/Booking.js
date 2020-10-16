@@ -11,10 +11,12 @@ import {
   
   class Booking {
     constructor(elemBooking) {
-    thisBooking.render(elemBooking);
-    thisBooking.initWidgets();
-    thisBooking.getData();
-    thisBooking.selectTable();
+      const thisBooking = this;
+  
+      thisBooking.render(elemBooking);
+      thisBooking.initWidgets();
+      thisBooking.getData();
+      thisBooking.selectTable();
     }
   
     selectTable(){
